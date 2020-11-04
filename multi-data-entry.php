@@ -19,32 +19,31 @@ function db(): PDO
 
     return $pdo;
 }
-$query = "insert into bank (person_id, bank_card_number, address_number, address_street_name, card_pin) values ('18-738-8654', '3558771083932794', '04', 'Tennessee', 35);
-insert into bank (person_id, bank_card_number, address_number, address_street_name, card_pin) values ('28-935-7973', '3569670998489394', '911', 'Kingsford', 93);
-insert into bank (person_id, bank_card_number, address_number, address_street_name, card_pin) values ('17-799-6045', '201861666169448', '3871', 'Saint Paul', 90);
-insert into bank (person_id, bank_card_number, address_number, address_street_name, card_pin) values ('54-015-5523', '5602249171413754', '3', 'Acker', 85);
-insert into bank (person_id, bank_card_number, address_number, address_street_name, card_pin) values ('14-439-4768', '3544343070170874', '4267', 'Kim', 73);
-insert into bank (person_id, bank_card_number, address_number, address_street_name, card_pin) values ('29-574-9719', '3542360779216149', '119', 'Mendota', 60);
-insert into bank (person_id, bank_card_number, address_number, address_street_name, card_pin) values ('36-491-6048', '3560398242196180', '2125', 'Quincy', 21);
-insert into bank (person_id, bank_card_number, address_number, address_street_name, card_pin) values ('74-901-6360', '201594434704739', '990', 'Thompson', 64);
-insert into bank (person_id, bank_card_number, address_number, address_street_name, card_pin) values ('76-564-4353', '6706958238785755', '10', 'Raven', 19);
-insert into bank (person_id, bank_card_number, address_number, address_street_name, card_pin) values ('81-750-2320', '501828363855286687', '837', 'Waywood', 56);
-insert into bank (person_id, bank_card_number, address_number, address_street_name, card_pin) values ('20-641-4175', '67711989804031170', '0', 'Rockefeller', 20);
-insert into bank (person_id, bank_card_number, address_number, address_street_name, card_pin) values ('50-856-8056', '374288307456722', '5411', 'Moland', 28);
-insert into bank (person_id, bank_card_number, address_number, address_street_name, card_pin) values ('91-074-9815', '201686383241133', '7027', 'Daystar', 59);
-insert into bank (person_id, bank_card_number, address_number, address_street_name, card_pin) values ('91-448-4553', '4041371414632', '63', 'Meadow Valley', 39);
-insert into bank (person_id, bank_card_number, address_number, address_street_name, card_pin) values ('52-492-3465', '3584654735318661', '0526', 'Emmet', 53);
-insert into bank (person_id, bank_card_number, address_number, address_street_name, card_pin) values ('24-553-7485', '201962827377076', '8422', 'Linden', 50);
-insert into bank (person_id, bank_card_number, address_number, address_street_name, card_pin) values ('27-712-7939', '5317294051735641', '8626', 'Tony', 67);
-insert into bank (person_id, bank_card_number, address_number, address_street_name, card_pin) values ('82-218-4620', '3584490652625360', '923', 'Sunnyside', 92);
-insert into bank (person_id, bank_card_number, address_number, address_street_name, card_pin) values ('78-589-1027', '3588422759307036', '329', 'Longview', 51);
-insert into bank (person_id, bank_card_number, address_number, address_street_name, card_pin) values ('68-674-6478', '374288330289629', '93248', 'Farragut', 74);
-insert into bank (person_id, bank_card_number, address_number, address_street_name, card_pin) values ('46-155-0589', '3551614226608664', '3', 'East', 64);
-insert into bank (person_id, bank_card_number, address_number, address_street_name, card_pin) values ('02-820-6831', '5602253348471778', '2360', 'Oxford', 26);
-insert into bank (person_id, bank_card_number, address_number, address_street_name, card_pin) values ('48-004-3295', '5100142008383893', '33727', 'Wayridge', 82);
-insert into bank (person_id, bank_card_number, address_number, address_street_name, card_pin) values ('90-623-1244', '3528812695344692', '7', 'Miller', 61);
-insert into bank (person_id, bank_card_number, address_number, address_street_name, card_pin) values ('28-745-2571', '3583485590287910', '4', 'Scoville', 68);
-
+$query = "insert into receipt_cafeteria (id, date_of_transaction, bank_card_number, total_cost, sales_id, items) values (55, '1/31/2020', '6331106484979739', 62, '2.199.203.28', 'Goat - Whole Cut');
+insert into receipt_cafeteria (id, date_of_transaction, bank_card_number, total_cost, sales_id, items) values (79, '5/24/2020', '30416327447571', 54, '214.118.205.195', 'Danishes - Mini Raspberry');
+insert into receipt_cafeteria (id, date_of_transaction, bank_card_number, total_cost, sales_id, items) values (11, '9/22/2020', '3548128021407392', 22, '244.91.9.230', 'Placemat - Scallop, White');
+insert into receipt_cafeteria (id, date_of_transaction, bank_card_number, total_cost, sales_id, items) values (85, '1/21/2020', '3587552928837918', 7, '50.122.211.246', 'Bagel - Plain');
+insert into receipt_cafeteria (id, date_of_transaction, bank_card_number, total_cost, sales_id, items) values (86, '2/21/2020', '374014845869303', 39, '195.112.120.195', 'Beans - Kidney, Red Dry');
+insert into receipt_cafeteria (id, date_of_transaction, bank_card_number, total_cost, sales_id, items) values (39, '8/26/2020', '670638723605399002', 61, '88.230.243.24', 'Sauce - Gravy, Au Jus, Mix');
+insert into receipt_cafeteria (id, date_of_transaction, bank_card_number, total_cost, sales_id, items) values (82, '9/16/2020', '6762358133311915306', 30, '106.175.34.135', 'Fish - Halibut, Cold Smoked');
+insert into receipt_cafeteria (id, date_of_transaction, bank_card_number, total_cost, sales_id, items) values (3, '1/11/2020', '3571142794336423', 21, '5.70.188.189', 'Coffee Cup 16oz Foam');
+insert into receipt_cafeteria (id, date_of_transaction, bank_card_number, total_cost, sales_id, items) values (12, '5/10/2020', '5436468458240662', 41, '30.134.108.139', 'Juice - Clamato, 341 Ml');
+insert into receipt_cafeteria (id, date_of_transaction, bank_card_number, total_cost, sales_id, items) values (77, '10/8/2020', '3578498805115666', 96, '133.164.251.171', 'Napkin - Cocktail,beige 2 - Ply');
+insert into receipt_cafeteria (id, date_of_transaction, bank_card_number, total_cost, sales_id, items) values (95, '2/21/2020', '3538341125472475', 5, '174.142.59.195', 'Wine - Red, Concha Y Toro');
+insert into receipt_cafeteria (id, date_of_transaction, bank_card_number, total_cost, sales_id, items) values (29, '7/10/2020', '3538436480408450', 6, '206.133.74.63', 'Cinnamon Buns Sticky');
+insert into receipt_cafeteria (id, date_of_transaction, bank_card_number, total_cost, sales_id, items) values (96, '12/12/2019', '3585229232206054', 62, '234.36.49.86', 'Juice - Ocean Spray Cranberry');
+insert into receipt_cafeteria (id, date_of_transaction, bank_card_number, total_cost, sales_id, items) values (76, '5/25/2020', '4844523682780906', 53, '100.35.111.163', 'Sesame Seed Black');
+insert into receipt_cafeteria (id, date_of_transaction, bank_card_number, total_cost, sales_id, items) values (70, '6/5/2020', '4508983189194703', 91, '242.166.39.228', 'Irish Cream - Butterscotch');
+insert into receipt_cafeteria (id, date_of_transaction, bank_card_number, total_cost, sales_id, items) values (10, '11/11/2019', '3535384571719166', 81, '199.45.100.188', 'Tomatillo');
+insert into receipt_cafeteria (id, date_of_transaction, bank_card_number, total_cost, sales_id, items) values (15, '6/16/2020', '6767364626864951637', 16, '248.40.115.222', 'Mushroom Morel Fresh');
+insert into receipt_cafeteria (id, date_of_transaction, bank_card_number, total_cost, sales_id, items) values (23, '2/1/2020', '201489868858335', 73, '223.223.159.237', 'Juice Peach Nectar');
+insert into receipt_cafeteria (id, date_of_transaction, bank_card_number, total_cost, sales_id, items) values (91, '3/5/2020', '3546166819694468', 97, '194.115.115.51', 'Sausage - Meat');
+insert into receipt_cafeteria (id, date_of_transaction, bank_card_number, total_cost, sales_id, items) values (46, '12/28/2019', '30463162172658', 40, '29.97.190.194', 'Pike - Frozen Fillet');
+insert into receipt_cafeteria (id, date_of_transaction, bank_card_number, total_cost, sales_id, items) values (18, '9/29/2020', '3579933288501023', 31, '116.108.160.214', 'Juice - Apple Cider');
+insert into receipt_cafeteria (id, date_of_transaction, bank_card_number, total_cost, sales_id, items) values (87, '12/8/2019', '201992199240511', 44, '240.8.194.203', 'Pork - Loin, Bone - In');
+insert into receipt_cafeteria (id, date_of_transaction, bank_card_number, total_cost, sales_id, items) values (43, '9/26/2020', '3574216379878079', 9, '153.201.190.120', 'Shrimp - 100 / 200 Cold Water');
+insert into receipt_cafeteria (id, date_of_transaction, bank_card_number, total_cost, sales_id, items) values (58, '8/13/2020', '5100141323813311', 57, '117.198.65.4', 'Port - 74 Brights');
+insert into receipt_cafeteria (id, date_of_transaction, bank_card_number, total_cost, sales_id, items) values (64, '5/4/2020', '5108757004953357', 26, '12.46.176.153', 'Wine - Zinfandel California 2002');
 ";
 
 $stmt = db()->exec($query);
