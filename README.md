@@ -6,5 +6,5 @@ All you need for this assignment can be found here, including database:
 <br>
 <br>
 <h2>ER-modell</h2>
-<img src="Murder mystery.pdf" alt="ER-modell">
+<img src="design.png" alt="ER-modell">
 <a href="https://github.com/JoeyJaySWE/JoeyJaySWE.github.io/tree/master/projects/sql-murder-mystery"><strong>Site repository</strong></a>
